@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400&amp;family=Poppins:wght@400;600&amp;display=swap);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: rgb(166, 186, 227);
+}
+.textDetails h1{
+  font-size: 3.2rem;
+  margin: 2rem 0;
+  text-align: center;
+  color: rgb(60, 9, 66)
+}
+h1{
+  font-family: "IBM Plex Serif",serif;
+  font-size: 2.4rem;
+  justify-content: center;
+  text-align: center;
+
+}
+p{
+  padding-bottom:0.5%;
+ 
+  color: rgba(21,19,69,0.5);
+  font-weight: 400;
+  font-size: 1.6rem;
+  display: inline-block;
+}
+span{
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.stories-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+.card{
+  min-width: 20rem;
+  width: 25vw;
+  padding: 4rem;
+  background-color: #ffffff;
+  box-shadow: rgba(100,100,111,0.2)0px 7px 29px 0px;
+  border-radius: 0.5rem;
+  color: #15133c;
+  float: left;
+  margin: 1rem;
+  max-height: 100vh;
+    height: 35vh;
+    margin-left: 68px;
+    margin-right: 10px;
+}
+.card img{
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.card-button{
+  flex-direction: row;
+  width: 100%;
+  display: flex;
+
+  justify-content:flex-end;
+
+}
+.card-button a{
+  color: #92b4ec;
+  font-weight: 400;
+  font-size: 1.6rem;
+
+}
+.card-button a:last-child{
+  color:blue;
+}
+.textDetails img{
+  justify-content: center;
+  text-align: center;
+}
+.textDetails{
+  justify-content: center;
+  padding-top: 2%;
+  text-align: center;
+}
+form{
+  display:grid;
+  place-items:center;
+}
+.hotelDetails h2{
+  text-align: center;
+
+}
+input{
+  padding: 1rem;
+  min-width: 40rem;
+  font-size:2rem;
+text-transform: capitalize;
+border: none;
+border-bottom: 0.2rem solid #15133c;
+outline: none;
+}
+
+
+@media(max-width:998px){
+  html{
+    font-size: 56%;
+
+  }
+  .card{
+    min-width: 45rem;
+    padding: 2.5rem;
+  }
+}
+@media(max-width:768px)
+{
+  html{
+    font-size: 51%;
+
+  }
+  .card{
+    min-width: 35rem;
+    padding: 2rem;
+  }
+}
